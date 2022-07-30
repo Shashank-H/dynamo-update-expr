@@ -14,8 +14,8 @@ export class DynamoExpression {
 
   /**
    * function to generate a DynamoExpression which will SET some values in the DB
-   * @param {Array<SetParam>} items - Array od setParams to the DynamoExpression
-   * @returns {DynamoExpression} expr
+   * @param {Array<SetParam>} items - Array of setParams to the DynamoExpression
+   * @returns {DynamoExpression} new DynamoExpression object
   */
   set(items: Array<SetParam>) : DynamoExpression {
 
