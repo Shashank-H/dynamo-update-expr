@@ -91,8 +91,8 @@ Please feel free to create pull requests or feature requests.
 
 [4]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
 
-[5]: #type-setparam
+[5]: #type---setparam
 
-[6]: #type-expression
+[6]: #type---expression
 
 [7]: #usage
