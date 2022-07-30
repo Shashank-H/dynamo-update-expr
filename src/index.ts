@@ -13,9 +13,9 @@ export class DynamoExpression {
   }
 
   /**
-   * 
-   * @param items - Array od setParams to the DynamoExpression
-   * @returns DynamoExpression
+   * function to generate a DynamoExpression which will SET some values in the DB
+   * @param {Array<SetParam>} items - Array od setParams to the DynamoExpression
+   * @returns {DynamoExpression} expr
   */
   set(items: Array<SetParam>) : DynamoExpression {
 
@@ -51,6 +51,10 @@ export class DynamoExpression {
 
   // !TODO: Add methods for REMOVE, ADD, DELETE as well. 
 
+  /**
+   * function to get the expression object to directly pass to the Dynamodb update call
+   * @returns {Expression} generated dynamo expression
+  */
   asExpression() : Expression {
 
     return {
