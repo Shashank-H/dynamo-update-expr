@@ -1,6 +1,6 @@
 {
   "name": "dynamo-update-expr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple Dynamo update Expression generator.",
   "main": "lib/index",
   "module": "lib/index",
