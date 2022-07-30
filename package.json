@@ -1,18 +1,19 @@
 {
   "name": "dynamo-update-expr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Dynamo update Expression generator.",
   "main": "lib/index",
   "module": "lib/index",
   "types": "lib/index",
   "scripts": {
     "start": "tsc && node dist/index.js",
-    "build" : "tsc",
+    "build": "tsc",
     "lint": "eslint . --ext .ts",
-    "prepare" : "npm run build"
-
+    "prepare": "npm run build"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shashank-H/dynamo-update-expr.git"
